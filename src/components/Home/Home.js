@@ -1,12 +1,13 @@
 import React from 'react';
 import './Home.css';
 import headerImage from '../../components/resources/suzukigsxr.png';
+import { Link } from 'react-router-dom';
 import ReviewData from '../Hooks/ReviewData';
-import Review from '../Review/Review';
+
 
 
 const Home = () => {
-    
+    const [reviews, setReviews] = ReviewData();
     return (
         <div className="container">
             <div className="row header">
@@ -19,7 +20,13 @@ const Home = () => {
                     <img className="img-fluid" src={headerImage} alt="" />
                  </div> 
             </div>
-            
+            <h3 className="text-center">Our Client Says</h3>
+           <div className="text-center">
+                <button className="btn btn-warning">
+                    <Link to="/review" className="text-white">Something</Link>   
+                </button>
+           </div>
+           
         </div>
     );
 };

@@ -9,9 +9,11 @@ const Review = () => {
     return (
         <div className="container">
             <h1 className="text-center mt-5">See what people are saying about us?</h1>
-            {
-                reviews.map(review => <ReviewDetails review={review} key={review.id}></ReviewDetails>)
-            }
+            <div className="row g-5">
+                {
+                    reviews.map(review => <ReviewDetails review={review} key={review.id}></ReviewDetails>)
+                }
+            </div>
         </div>
     );
 };

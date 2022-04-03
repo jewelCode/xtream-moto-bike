@@ -3,62 +3,71 @@
         "name": "B. J. Sims, Ph.D.",
         "designation": "President",
         "company": "Texas Educational Services, Inc.241",
-        "comment": "Good Work"
+        "comment": "Good Performance",
+        "image" : "https://thriveagency.com/files/TES-Logo.png"
     },
     {
         "id": 2,
         "name": "Brandon O Brien",
         "designation": "CEO",
         "company": "Demilec (USA), LLC",
-        "comment": "Good Performance"
+        "comment": "Excellent Service",
+        "image" : "https://thriveagency.com/files/David-M-e1482944517710.jpg"
     },
     {
         "id": 3,
         "name": "David McDurham",
-        "designation": "Minister of Communications",
+        "designation": "Head of Communication",
         "company": "First Baptist Church Arlington",
-        "comment": "Excellent Service"
+        "comment": "Excellent Service",
+        "image" : "https://thriveagency.com/files/Brandon-O-e1482942080144.jpg"
     },
     {
         "id": 4,
         "name": "Stan Wilkes",
         "designation": "Executive Director",
         "company": "Arlington Trolley",
-        "comment": "Working Good"
+        "comment": "Working Good",
+        "image" : "https://thriveagency.com/files/Stan-W-e1482943874430.jpg"
     },
     {
         "id": 5,
         "name": "Eric Beich",
         "designation": "Marketing Director",
         "company": "Max Mechanical",
-        "comment": "Good Job"
+        "comment": "Good Performance",
+        "image" : "https://thriveagency.com/files/Eric-B-e1482945131614.jpg"
     },
     {
         "id": 6,
         "name": "Bruce Maston",
         "designation": "VP Quality Assurance",
         "company": "Superior Plastics",
-        "comment": "Excellent Service"
+        "comment": "Superior Service",
+        "image" : "https://thriveagency.com/files/Superior-Plastics.png"
     },
     {
         "id": 7,
         "name": "Tony Rutigliano",
         "designation": "President and CEO",
         "company": "Downtown Arlington Management",
-        "comment": "Good Job"
+        "comment": "Good Job",
+        "image" : "https://thriveagency.com/files/Brandon-O-e1482942080144.jpg"
     },
     {
         "id": 8,
         "name": "Melissa Montiel",
         "designation": "Marketing Director",
         "company": "Sterling Protective Services, Inc.",
-        "comment": "Excellent Service"
+        "comment": "Excellent Service",
+        "image" : "https://thriveagency.com/files/tony-1.jpg"
     },
     {
         "id": 9,
         "name": "Aaron Miller",
         "designation": "President",
         "company": "Texas Inspector",
-        "comment": "Excellent Service"
+        "comment": "Excellent Service",
+        "image" : "https://thriveagency.com/files/Melissa-M-e1482946329588.jpg"
     }
 ]
