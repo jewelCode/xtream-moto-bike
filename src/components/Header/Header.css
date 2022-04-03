@@ -1,0 +1,14 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navigation{
+    margin-right: 50px;
+}
+.navigation .nav-item{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
