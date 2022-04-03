@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 
 const Dashboard = () => {
@@ -45,16 +45,29 @@ const Dashboard = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
+                <h3>Month Wise Sell</h3>
                 <LineChart width={600} height={300} data={data}>
-                <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
+                <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                      <CartesianGrid stroke="#ccc" />
                         <XAxis dataKey="month" />
-                        <YAxis dataKey="investment" />
+                        <YAxis dataKey="sell" />
+                        <Tooltip />
                 </LineChart>
                 </div>
                 <div className="col-md-6">
-
-                </div>
+                <h3>Revenue VS Investment</h3>
+                 <LineChart
+                    width={600}
+                    height={300}
+                    data={data}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="investment" />
+                    <YAxis />
+                    <Tooltip />
+                    <Line type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
+                </LineChart>
+            </div>
             </div>
         </div>
     );
