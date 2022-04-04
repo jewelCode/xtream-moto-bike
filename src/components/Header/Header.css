@@ -12,6 +12,7 @@
     margin-left: 20px;
     text-decoration: none;
     color: orange;
+    text-transform: uppercase;
 }
 
 .navigation .nav-item:hover{

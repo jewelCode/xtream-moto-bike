@@ -1,8 +1,10 @@
 # XTREAME MOTO BIKE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link: [Xtreame Moto Bike](https://github.com/facebook/create-react-app).
 
-## How Project is Done???
-
-
+## About This Project?
+* Three Reviews are added in the homepage.
+* Shown all Reviews in the Review Section.
+* Charts are shown in the Dashboard.
+* Question and Answer section are shown in the Blog section.
 
