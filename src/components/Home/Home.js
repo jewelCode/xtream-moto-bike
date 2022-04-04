@@ -6,8 +6,6 @@ import useReview from '../Hooks/useReview';
 import { Card } from 'react-bootstrap';
 
 
-
-
 const Home = () => {
     const [reviews, setReviews] =useReview();
     return (
