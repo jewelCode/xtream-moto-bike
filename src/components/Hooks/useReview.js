@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-const ReviewData = () => {
+const useReview = () =>{
     const [reviews, setReviews] = useState([]);
     useEffect(()=>{
         fetch('review.json')
@@ -11,7 +11,4 @@ const ReviewData = () => {
     return [reviews, setReviews];
 }
 
-    
-
-
-export default ReviewData;
+export default useReview;

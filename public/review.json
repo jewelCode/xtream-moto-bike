@@ -4,6 +4,7 @@
         "designation": "President",
         "company": "Texas Educational Services, Inc.241",
         "comment": "Good Performance",
+        "rating": 5,
         "image" : "https://thriveagency.com/files/TES-Logo.png"
     },
     {
@@ -12,6 +13,7 @@
         "designation": "CEO",
         "company": "Demilec (USA), LLC",
         "comment": "Excellent Service",
+        "rating": 4.6,
         "image" : "https://thriveagency.com/files/David-M-e1482944517710.jpg"
     },
     {
@@ -20,6 +22,7 @@
         "designation": "Head of Communication",
         "company": "First Baptist Church Arlington",
         "comment": "Excellent Service",
+        "rating": 5,
         "image" : "https://thriveagency.com/files/Brandon-O-e1482942080144.jpg"
     },
     {
@@ -28,6 +31,7 @@
         "designation": "Executive Director",
         "company": "Arlington Trolley",
         "comment": "Working Good",
+        "rating": 5,
         "image" : "https://thriveagency.com/files/Stan-W-e1482943874430.jpg"
     },
     {
@@ -36,6 +40,7 @@
         "designation": "Marketing Director",
         "company": "Max Mechanical",
         "comment": "Good Performance",
+        "rating": 4.5,
         "image" : "https://thriveagency.com/files/Eric-B-e1482945131614.jpg"
     },
     {
@@ -44,6 +49,7 @@
         "designation": "VP Quality Assurance",
         "company": "Superior Plastics",
         "comment": "Superior Service",
+        "rating": 4.7,
         "image" : "https://thriveagency.com/files/Superior-Plastics.png"
     },
     {
@@ -52,6 +58,7 @@
         "designation": "President and CEO",
         "company": "Downtown Arlington Management",
         "comment": "Good Job",
+        "rating": 4.8,
         "image" : "https://thriveagency.com/files/Brandon-O-e1482942080144.jpg"
     },
     {
@@ -60,6 +67,7 @@
         "designation": "Marketing Director",
         "company": "Sterling Protective Services, Inc.",
         "comment": "Excellent Service",
+        "rating": 5,
         "image" : "https://thriveagency.com/files/tony-1.jpg"
     },
     {
@@ -68,6 +76,7 @@
         "designation": "President",
         "company": "Texas Inspector",
         "comment": "Excellent Service",
+        "rating": 4.9,
         "image" : "https://thriveagency.com/files/Melissa-M-e1482946329588.jpg"
     }
 ]

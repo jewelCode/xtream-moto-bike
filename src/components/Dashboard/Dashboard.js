@@ -43,10 +43,10 @@ const Dashboard = () => {
 ]
     return (
         <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                <h3>Month Wise Sell</h3>
-                <LineChart width={600} height={300} data={data}>
+            <div className="row mt-5 g-5">
+                <div className="col-md-6 col-lg-6 col-sm-12">
+                <h3 className="text-center">Month Wise Sell</h3>
+                <LineChart width={500} height={300} data={data}>
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                      <CartesianGrid stroke="#ccc" />
                         <XAxis dataKey="month" />
@@ -54,10 +54,10 @@ const Dashboard = () => {
                         <Tooltip />
                 </LineChart>
                 </div>
-                <div className="col-md-6">
-                <h3>Revenue VS Investment</h3>
+                <div className="col-md-6 col-lg-6 col-sm-12">
+                <h3 className="text-center">Revenue VS Investment</h3>
                  <LineChart
-                    width={600}
+                    width={500}
                     height={300}
                     data={data}
                 >

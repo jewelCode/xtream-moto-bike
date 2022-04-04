@@ -4,7 +4,7 @@ import './ReviewDetails.css'
 
 const ReviewDetails = (props) => {
 
-    const {name, designation, company, comment, image} = props.review;
+    const {name, designation, company, comment, image, rating} = props.review;
     return (
         <div className="col-md-4">
             <Card className="p-3">
@@ -14,6 +14,7 @@ const ReviewDetails = (props) => {
                         <p>Designation: {designation}</p>
                         <p>Company: {company}</p>
                         <p>Comment: {comment}</p>
+                        <p>Rating: {rating}</p>
                     </Card.Body>
             </Card>
         </div>
