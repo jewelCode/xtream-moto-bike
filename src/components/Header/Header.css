@@ -6,9 +6,26 @@
 }
 .navigation{
     margin-right: 50px;
+    
 }
 .navigation .nav-item{
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: orange;
 }
+
+.navigation .nav-item:hover{
+        background-color: orange;
+        padding: 20px;
+        color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation .nav-item{
+        display: none;
+    }
+
+    .nav-container span h2 {
+        text-align: center;
+    }
+  }

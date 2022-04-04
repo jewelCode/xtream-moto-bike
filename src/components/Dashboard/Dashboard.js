@@ -42,7 +42,7 @@ const Dashboard = () => {
     }
 ]
     return (
-        <div className="container">
+        <div className="container" style={{backgroundColor: '#fefbe9'}}>
             <div className="row mt-5 g-5">
                 <div className="col-md-6 col-lg-6 col-sm-12">
                 <h3 className="text-center">Month Wise Sell</h3>

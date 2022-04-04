@@ -7,7 +7,7 @@ const ReviewDetails = (props) => {
     const {name, designation, company, comment, image, rating} = props.review;
     return (
         <div className="col-md-4">
-            <Card className="p-3">
+            <Card className="p-3 h-100" style={{backgroundColor: '#e1eedd'}}>
                 <Card.Img variant="top" src={image} className="img-fluid image-size rounded-circle w-50 mx-auto d-block"/>
                 <Card.Body>
                     <Card.Title>Name: {name}</Card.Title>

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="container nav-container">
             <div>
-                <span><h2>Xtreame Moto Bike</h2></span>
+                <span><h2 className="text-success">Xtreame Moto Bike</h2></span>
             </div>
             <div>
                 <nav className="navigation">
